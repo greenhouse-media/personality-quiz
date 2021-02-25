@@ -1,0 +1,1 @@
+$(document).ready(function(){data=function(){},$.get("./data.json",function(a){data=a,Utilities.init(),Navigation.init(),Questions.init(),Result.init()},"json")});

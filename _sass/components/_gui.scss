@@ -1,0 +1,32 @@
+#gui {
+	height: 30vh;
+	position: relative;
+	z-index: 2;
+}
+
+.home-button {
+	margin: 20px 0px 20px 20px;
+	filter: drop-shadow( 0px 0px 5px #777);
+	-webkit-filter: drop-shadow(0px 0px 5px #777);
+	border: none;
+	background: none;
+	svg {
+		width: 48px;
+		//filter: drop-shadow( 0px 0px 5px #777);
+	}
+
+}
+
+.logo {
+	margin: 0 auto;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	img {
+		height: 200px;
+	}
+	.smaller {
+		height: 150px;
+	}
+}
+
